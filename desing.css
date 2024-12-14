@@ -1,0 +1,86 @@
+html{
+    font-family: "Fira Sans", sans-serif;
+}
+body{
+    margin: 0;
+    background-color: beige;
+}
+header{
+    
+    background-color: rgb(86, 188, 192);
+    color: blanchedalmond;
+    padding: 4rem 2rem;
+}
+
+header h1{
+    
+    font-size: 3rem; /**tamaño de la fuente**/
+    text-align: center;
+    
+    
+}
+article h2{
+    font-size: 4rem;
+    text-align: center;
+    border: solid  rgb(173, 60, 94);
+    border-radius: 4px;
+    background-color:  rgb(173, 60, 94);
+    
+    
+}
+.post{
+    width: 605px;
+    
+    margin: 0 auto;
+    
+}
+img{
+    border: solid blueviolet ;
+    border-radius: 2px;
+    width: 600px;
+    
+    
+}
+footer{
+    padding: 4rem ;
+    background-color: rgb(86, 188, 192);
+    color: floralwhite;
+}
+section article{
+    transition: box-shadow 0.24s ease; /** para transition se pone donde quieres el tiempo y el algoritmo para la transicion**/
+    background-color: rgb(173, 60, 94);
+    border-radius: 0.5rem;
+    padding: 0.50rem 0;
+    margin: 1rem 0px ;
+    cursor: pointer; /**para que muestre la manito**/
+
+}
+section article h2,
+section article p{
+    margin: 1rem;
+}
+section article:hover{
+    box-shadow:  0 0.5rem  0.3rem rgba(0, 0, 0,0.4);
+   
+}
+.canal{
+    margin: 0 0.3rem;
+}
+footer section, footer a{
+    transition: color 0.25s ease;
+    float: right;
+
+    text-decoration: none;
+    color: floralwhite;
+
+}
+footer section, footer a:hover{
+    color: blue;
+}
+footer p{
+    margin: 0;
+}
+article p{
+    font-family: "Playwrite US Trad Guides", cursive;
+
+}
